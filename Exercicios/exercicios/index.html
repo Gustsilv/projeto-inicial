@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+    
+    let idadeUsuario = parseInt(prompt("Digite sua idade: "));
+    document.write(idadeUsuario);
+    
+    if (idadeUsuario >= 18 && idadeUsuario <= 70) {
+        document.write ("Seu voto é obrigatório!");
+    } else if (idadeUsuario ==16 || idadeUsuario == 17 || idadeUsuario > 70) {
+        document.write ("Seu volto é opcional!");
+    } else {
+        document.write ("Você não tem idade suficiente para votar!");
+    }
+    
+    </script>
+    
+</body>
+</html>
